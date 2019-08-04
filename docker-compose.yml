@@ -1,0 +1,6 @@
+version: '3'
+services:
+  odoo110:
+    container_name: odoo110
+    network_mode: host
+    build: .
