@@ -1,3 +1,3 @@
 FROM docker.io/library/odoo:11.0
-COPY ./module /mnt/extra-addons/module
+COPY ./module/* /mnt/extra-addons
 CMD ["odoo"]
