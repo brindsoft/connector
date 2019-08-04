@@ -1,3 +1,3 @@
 FROM docker.io/library/odoo:11.0
-COPY ./entrypoint.sh /
+COPY ./module /mnt/extra-addons/module
 CMD ["odoo"]
